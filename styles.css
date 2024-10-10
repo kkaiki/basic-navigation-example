@@ -14,21 +14,22 @@ header, footer {
 
 .primary-nav {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     padding: 30px;
 }
 
 .footer-nav {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     padding: 30px;
     width: 100%;
     z-index: 1000;
 }
 
 .primary-nav li, .footer-nav li {
+    display: inline-block;
     margin: 0 10px;
 }
 
@@ -39,8 +40,7 @@ header, footer {
 }
 
 main {
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
 }
 
 .side-nav {
@@ -63,7 +63,8 @@ main {
 #main-content {
     width: 80%;
     padding: 20px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
